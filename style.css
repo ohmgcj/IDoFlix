@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/premium-photo/blurry-background-red-seat-theater-without-people_2313-1098.jpg"); 
+  /*fundo colorido: https://i.pinimg.com/originals/54/e6/d1/54e6d1d65a904550f2d0ee56c4f33665.gif*/
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(12, 4, 4, 0.514);
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 15px;
+}
+
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  width: 180px;
+  height: 250px;
+  transition: 0.5s;
+}
+
+#listaFilmes img:hover{
+  transform: scale(1.2);
+  box-shadow: 10px 10px 20px #000000;
+}
+
+#listaFilmes img:hover + .tituloFilme{
+  transform: scale(1.2);
+  text-shadow: 10px 10px 10px #000000;
+}
+
+.tituloFilme {
+  color: #ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 10px;
+  max-height: 250px;
+  transition: 0.5s;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
