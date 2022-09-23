@@ -40,6 +40,8 @@ body {
   right: 10px;
 }
 
+/*---------------*/
+
 #listaFilmes {
   justify-content: center;
   display: flex;
@@ -97,3 +99,4 @@ body {
 .form-wrapper button:hover {
   opacity: 0.8;
 }
+
